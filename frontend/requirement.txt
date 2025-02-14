@@ -1,0 +1,449 @@
+# HouseFusion.io - Real Estate Platform Specification
+
+## Core Features
+
+### 1. Property Listings & Search
+- Advanced search with filters (price, location, property type, amenities)
+- Map-based property search with neighborhood insights
+- Virtual tours and 3D walkthrough integration
+- High-quality photo galleries with automatic image optimization
+- Save favorite properties and search criteria
+- Price history and market value estimates
+
+### 2. User Dashboard
+- Separate portals for buyers, sellers, and agents
+- Saved searches and property alerts
+- Document storage and management
+- Communication center for messages and notifications
+- Transaction tracking and status updates
+- Meeting scheduler with real estate agents
+
+### 3. Agent Tools
+- CRM system for client management
+- Lead generation and tracking
+- Marketing automation tools
+- Property listing management
+- Analytics dashboard
+- Commission tracking
+- Calendar integration
+
+### 4. Market Intelligence
+- Real-time market trends and analytics
+- Neighborhood statistics and demographics
+- School ratings and local amenities
+- Crime rates and safety information
+- Property value predictions
+- Investment potential analysis
+
+### 5. Transaction Management
+- Online offer submission
+- Document e-signing capability
+- Mortgage calculator and financing options
+- Transaction milestone tracking
+- Closing cost estimator
+- Inspection and appraisal scheduling
+
+## Technical Requirements
+
+### 1. Front-end Development
+- Responsive design for all devices
+- Progressive Web App (PWA) capabilities
+- Modern UI/UX with intuitive navigation
+- Real-time updates and notifications
+- Accessibility compliance (WCAG 2.1)
+- Multi-language support
+
+### 2. Back-end Infrastructure
+- Scalable cloud architecture
+- Real-time data synchronization
+- Robust search engine
+- API integration capabilities
+- Data security and encryption
+- Automated backup systems
+
+### 3. Integration Requirements
+- MLS (Multiple Listing Service) integration
+- Payment gateway integration
+- Google Maps API
+- Social media sharing
+- Email marketing platforms
+- Analytics tools (Google Analytics, etc.)
+
+### 4. Security Features
+- SSL certification
+- Two-factor authentication
+- Role-based access control
+- Data encryption at rest and in transit
+- Regular security audits
+- GDPR compliance
+
+### 5. Performance Optimization
+- CDN implementation
+- Image and video optimization
+- Caching strategies
+- Database optimization
+- Load balancing
+- Mobile optimization
+
+## Monetization Strategies
+
+### 1. Revenue Streams
+- Premium listing fees
+- Featured property placements
+- Subscription plans for agents
+- Lead generation fees
+- Advertising space
+- Referral partnerships
+
+### 2. Subscription Tiers
+- Basic (Free)
+  - Basic property search
+  - Limited listings
+  - Basic user profile
+- Professional ($49/month)
+  - Advanced search features
+  - Unlimited listings
+  - CRM access
+- Enterprise ($199/month)
+  - Full feature access
+  - Priority support
+  - Custom branding
+
+## Launch Strategy
+
+### 1. Pre-launch
+- Market research and competitor analysis
+- Beta testing program
+- Early bird registrations
+- Partner network development
+- Marketing material preparation
+
+### 2. Marketing Plan
+- SEO optimization
+- Content marketing strategy
+- Social media presence
+- Email marketing campaigns
+- Real estate event participation
+- Referral program implementation
+
+### 3. Post-launch
+- User feedback collection
+- Feature enhancement planning
+- Performance monitoring
+- Customer support optimization
+- Market expansion strategy
+
+## Future Enhancements
+
+### 1. Advanced Features
+- AI-powered property recommendations
+- Blockchain integration for transactions
+- AR/VR property tours
+- Smart contract implementation
+- Predictive analytics
+- Mobile app development
+
+### 2. Integration Expansions
+- Home service provider marketplace
+- Moving service integration
+- Insurance provider partnerships
+- Property management tools
+- Smart home technology integration
+
+
+//final Features
+
+home - recommendations
+Saved Searches
+Properties
+appointments
+Offer Management: Incoming offers with details and the ability to accept, reject, or counter.
+Document Management: Quick access to uploaded or needed documents like property deeds, contracts, or inspection reports.
+Property Listings
+Calendar & Appointments:
+Search Bar
+Appointments & Inquiries
+
+
+admin 
+Overview/Highlights
+Quick stats on platform performance:
+Total users (buyers, sellers, agents).
+Active property listings.
+Total transactions (completed, pending, canceled).
+Revenue or commission earned.
+Notifications/Alerts:
+Pending approvals (property listings, new users, etc.).
+Issues flagged by buyers, sellers, or agents.
+System errors or performance alerts.
+Property Management
+Approve Property Listings:
+Review property details, media, and pricing before publishing.
+Monitor Listings:
+Active, under-review, or expired listings.
+Flagged Properties:
+View and resolve flagged or inappropriate listings.
+
+
+
+
+future - 
+comparison
+notifications
+Alerts for buyers about new property matches, price drops, or offers.
+Alerts for sellers about inquiries, offers, and listing performance.
+Market Trends: Information on recent sales, average market prices, and competition in their area.
+
+data - 
+
+kolkata - ['PROP_ID', 'PREFERENCE', 'DESCRIPTION', 'PROPERTY_TYPE', 'CITY', 'TRANSACT_TYPE', 'OWNTYPE', 'BEDROOM_NUM', 'PRICE_PER_UNIT_AREA', 'FURNISH', 'FACING', 'AGE', 'TOTAL_FLOOR', 'FEATURES', 'PROP_NAME', 'PRICE_SQFT', 'MAP_DETAILS', 'AMENITIES', 'AREA', 'PRICE', 'PROP_HEADING', 'SECONDARY_TAGS', 'TOTAL_LANDMARK_COUNT', 'FORMATTED_LANDMARK_DETAILS', 'SOCIETY_NAME', 'BUILDING_NAME', 'location', 'BALCONY_NUM', 'FLOOR_NUM', 'CARPET_SQFT', 'SUPERBUILTUP_SQFT', 'BUILTUP_SQFT', 'SUPER_AREA', 'SUPERAREA_UNIT', 'SUPER_SQFT']
+mumbai - ['SPID', 'PROP_ID', 'PREFERENCE', 'DESCRIPTION', 'PROPERTY_TYPE', 'CITY', 'TRANSACT_TYPE', 'OWNTYPE', 'BEDROOM_NUM', 'PRICE_PER_UNIT_AREA', 'FURNISH', 'FACING', 'AGE', 'TOTAL_FLOOR', 'FEATURES', 'REGISTER_DATE', 'POSTING_DATE', 'UPDATE_DATE', 'CLASS', 'RES_COM', 'PROP_NAME', 'PROPERTY_NUMBER', 'MIN_PRICE', 'MAX_PRICE', 'PRICE_SQFT', 'PROJ_ID', 'BUILDING_ID', 'VERIFIED', 'MAP_DETAILS', 'MIN_AREA_SQFT', 'MAX_AREA_SQFT', 'AMENITIES', 'ALT_TAG', 'PRODUCT_TYPE', 'TOP_USPS', 'EXPIRY_DATE', 'PROPERTY_TYPE__U', 'AREA', 'SECONDARY_AREA', 'PRICE', 'PROP_HEADING', 'VALUE_LABEL', 'CLASS_HEADING', 'CLASS_LABEL', 'REGISTER_DATE__U', 'REGISTERED_DAYS', 'PRIMARY_TAGS', 'SECONDARY_TAGS', 'TOTAL_LANDMARK_COUNT', 'FORMATTED_LANDMARK_DETAILS', 'SOCIETY_NAME', 'BUILDING_NAME', 'location', 'BALCONY_NUM', 'FLOOR_NUM']
+hyderabad - ['SPID', 'PROP_ID', 'PREFERENCE', 'DESCRIPTION', 'PROPERTY_TYPE', 'CITY', 'TRANSACT_TYPE', 'OWNTYPE', 'BEDROOM_NUM', 'PRICE_PER_UNIT_AREA', 'FURNISH', 'FACING', 'AGE', 'TOTAL_FLOOR', 'FEATURES', 'REGISTER_DATE', 'POSTING_DATE', 'UPDATE_DATE', 'CLASS', 'RES_COM', 'PROP_NAME', 'PROPERTY_NUMBER', 'MIN_PRICE', 'MAX_PRICE', 'PRICE_SQFT', 'PROJ_ID', 'BUILDING_ID', 'VERIFIED', 'MAP_DETAILS', 'MIN_AREA_SQFT', 'MAX_AREA_SQFT', 'AMENITIES', 'ALT_TAG', 'PRODUCT_TYPE', 'TOP_USPS', 'EXPIRY_DATE', 'PROPERTY_TYPE__U', 'AREA', 'SECONDARY_AREA', 'PRICE', 'PROP_HEADING', 'VALUE_LABEL', 'CLASS_HEADING', 'CLASS_LABEL', 'REGISTER_DATE__U', 'REGISTERED_DAYS', 'PRIMARY_TAGS', 'SECONDARY_TAGS', 'TOTAL_LANDMARK_COUNT', 'FORMATTED_LANDMARK_DETAILS', 'SOCIETY_NAME', 'BUILDING_NAME', 'location', 'BALCONY_NUM', 'FLOOR_NUM']
+gurgaon - ['PROP_ID', 'PHOTO_URL', 'MEDIUM_PHOTO_URL', 'PREFERENCE', 'DESCRIPTION', 'PROPERTY_TYPE', 'CITY', 'LOCALITY', 'TRANSACT_TYPE', 'OWNTYPE', 'BEDROOM_NUM', 'BATHROOM_NUM', 'BALCONY_NUM', 'PRICE_PER_UNIT_AREA', 'FURNISH', 'FACING', 'AGE', 'FLOOR_NUM', 'TOTAL_FLOOR', 'FEATURES', 'REGISTER_DATE', 'PROP_NAME', 'MIN_PRICE', 'MAX_PRICE', 'PRICE_SQFT', 'LISTING', 'BUILDING_ID', 'CARPET_SQFT', 'SUPERBUILTUP_SQFT', 'BROKERAGE', 'MAP_DETAILS', 'FSL_Data', 'MIN_AREA_SQFT', 'MAX_AREA_SQFT', 'FORMATTED', 'AMENITIES', 'TOP_USPS', 'PD_URL', 'EXPIRY_DATE', 'GROUP_NAME', 'AREA', 'PRICE', 'PROP_HEADING', 'PROP_DETAILS_URL', 'CLASS_HEADING', 'CLASS_LABEL', 'SECONDARY_TAGS', 'PROPERTY_IMAGES', 'THUMBNAIL_IMAGES', 'TOTAL_LANDMARK_COUNT', 'FORMATTED_LANDMARK_DETAILS', 'CONTACT_NAME', 'CONTACT_COMPANY_NAME', 'DEALER_PHOTO_URL', 'SOCIETY_NAME', 'BUILDING_NAME', 'CITY_ID', 'LOCALITY_WO_CITY', 'profile', 'xid', 'metadata', 'location', 'BUILTUP_SQFT', 'SUPER_SQFT', 'COMMON_FURNISHING_ATTRIBUTES', 'QUALITY_SCORE', 'FURNISHING_ATTRIBUTES']
+
+imp details
+
+PROP_ID  // its unique 
+
+PREFERENCE  // s for sale r for rent
+
+DESCRIPTION // prop details
+
+PROPERTY_TYPE // 1	Independent House/Villa
+2	Residential Apartment
+3	Studio Apartment
+4	Residential Land
+5	Independent/Builder Floor
+6	Farm House
+7	Serviced Apartments
+
+
+CITY // unique CITY
+1	Thane
+2	Gurgaon
+3	Kolkata West
+4	Kolkata North
+5	Mumbai Beyond Thane
+6	Navi Mumbai
+7	Central Mumbai suburbs
+8	Kolkata East
+9	Hyderabad
+10	Kolkata Central
+11	Kolkata South
+12	Mumbai Harbour
+13	South Mumbai
+14	Mumbai South West
+15	Secunderabad
+16	Mira Road And Beyond
+17	Mumbai Andheri-Dahisar
+
+OWNTYPE //5 types
+OWNTYPE Value	Meaning	Description
+0	Individual Owner	Owned by a single person or family.
+1	Builder/Developer	Property listed by a real estate developer.
+2	Agent/Broker	Property listed by a real estate agent.
+3	Company/Corporate Owner	Owned by a business or corporation.
+4	Bank/Auction Property	Property owned by a bank (foreclosed or auction sale).
+
+
+BEDROOM_NUM // no of bedroom 
+
+PRICE_PER_UNIT_AREA // price per unit
+
+
+FURNISH // 4 types
+
+FURNISH Value	Meaning	Description
+0	Unfurnished	No furniture, only basic fixtures like lights and fans.
+1	Semi-Furnished	Includes some essential furniture like wardrobes, kitchen cabinets, lights, fans, and sometimes appliances like AC or geyser.
+2	Fully Furnished	Completely furnished with beds, sofas, dining table, TV, refrigerator, washing machine, etc.
+4	Custom Furnishing or Partially Furnished	Could mean partial furnishing beyond semi-furnished but not fully furnished. (Check your database documentation for exact usage.)
+
+FACING  // vastu property direction
+FACING Value	Direction
+0	North
+1	East
+2	South
+3	West
+4	North-East
+5	South-East
+6	South-West
+7	North-West
+8	Unknown/Not Specified
+
+
+
+AGE  //property agent
+
+
+TOTAL_FLOOR //total floor
+
+
+FEATURES  // only 50 found
+Feature Code	Description
+1	Swimming Pool
+2	Gym/Fitness Center
+3	Reserved Parking
+4	Power Backup
+5	Lift/Elevator
+6	Security Personnel
+7	Clubhouse
+8	Children's Play Area
+9	Garden/Park
+10	Community Hall
+11	Intercom Facility
+12	Fire Safety
+13	Shopping Center
+14	Rainwater Harvesting
+15	Wi-Fi Connectivity
+16	Gated Community
+17	Sports Facility
+18	Jogging Track
+19	Maintenance Staff
+20	Water Storage
+21	Visitor Parking
+22	Waste Disposal
+23	Feng Shui/Vaastu Compliant
+24	Piped Gas
+25	Internet/Wi-Fi Connectivity
+26	DTH Television Facility
+27	RO Water System
+28	Banquet Hall
+29	Conference Room
+30	Cafeteria/Food Court
+31	Bar/Lounge
+32	Day Care Center
+33	Laundry Service
+34	Concierge Services
+35	Library
+36	Sauna
+37	Jacuzzi
+38	Spa
+39	Indoor Games Room
+40	Multipurpose Room
+41	Amphitheater
+42	Temple/Place of Worship
+43	Creche
+44	Guest Accommodation
+45	ATM
+46	Bank
+47	School
+48	Hospital
+49	Pharmacy
+50	Grocery Store
+
+
+PROP_NAME // prop name 
+
+
+PRICE_SQFT // price per sqft
+
+MAP_DETAILS // map details like longitude lattitude and zoom level
+
+AMENITIES // same as features 
+
+
+AREA // total area 
+
+
+PRICE // price of prop
+
+PROP_HEADING // prop name 
+
+SECONDARY_TAGS // not effective so remove
+
+TOTAL_LANDMARK_COUNT  // details not fixed either include or not 
+Landmark Code	Description
+1	Swimming Pool
+2	Gym/Fitness Center
+3	Reserved Parking
+4	Power Backup
+5	Lift/Elevator
+6	Security Personnel
+7	Clubhouse
+8	Children's Play Area
+9	Garden/Park
+10	Community Hall
+11	Intercom Facility
+12	Fire Safety
+13	Shopping Center
+14	Rainwater Harvesting
+15	Wi-Fi Connectivity
+16	Gated Community
+17	Sports Facility
+18	Jogging Track
+19	Maintenance Staff
+20	Water Storage
+21	Visitor Parking
+22	Waste Disposal
+23	Feng Shui/Vaastu Compliant
+24	Piped Gas
+25	Internet/Wi-Fi Connectivity
+26	DTH Television Facility
+27	RO Water System
+28	Banquet Hall
+29	Conference Room
+30	Cafeteria/Food Court
+31	Bar/Lounge
+32	Day Care Center
+33	Laundry Service
+34	Concierge Services
+35	Library
+36	Sauna
+37	Jacuzzi
+38	Spa
+39	Indoor Games Room
+40	Multipurpose Room
+41	Amphitheater
+42	Temple/Place of Worship
+43	Creche
+44	Guest Accommodation
+45	ATM
+46	Bank
+47	School
+48	Hospital
+49	Pharmacy
+50	Grocery Store
+
+FORMATTED_LANDMARK_DETAILS // not including
+
+
+SOCIETY_NAME // soc name 
+
+BUILDING_NAME // build name
+
+location  // not needed 
+
+
+BALCONY_NUM // how many BALCONY_NUM
+
+FLOOR_NUM // property flooe
+
+
+full final //
+
+buyer - 
+
+properties
+saved props
+inquiry 
+appointment  
+transactions
+
+seller - 
+
+manage props
+appointments 
+inquiries
+transactions
+
+
+admin - 
+
+overview
+users
+manage listing
+flagged listing
+
+
+
