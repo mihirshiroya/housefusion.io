@@ -28,11 +28,9 @@ router.put('/:id/role', async (req, res) => {
   try {
     const { id } = req.params;
     const { role } = req.body;
-
-    // Get user ID from middleware
     const userId = req.auth.userId;
-    
-    // Verify user matches the requested ID
+
+    // Verify user matches the requested ID using Clerk's ID format
     if (userId !== id) {
       return res.status(403).json({ message: 'Unauthorized' });
     }
@@ -44,10 +42,17 @@ router.put('/:id/role', async (req, res) => {
     user.role = role;
     await user.save();
 
-    // Update Clerk metadata using modern method
-    await clerkClient.users.updateUserMetadata(id, {
-      publicMetadata: { role }
-    });
+    // Update Clerk metadata with proper error handling
+    try {
+      await clerkClient.users.updateUserMetadata(id, {
+        publicMetadata: { role }
+      });
+    } catch (clerkError) {
+      console.error('Clerk metadata update failed:', clerkError);
+      return res.status(500).json({ 
+        message: 'Role updated locally but failed to update Clerk metadata'
+      });
+    }
 
     res.json(user);
   } catch (error) {

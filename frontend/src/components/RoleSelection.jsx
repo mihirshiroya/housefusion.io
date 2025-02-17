@@ -12,7 +12,7 @@ const RoleSelection = () => {
   const handleRoleSelect = async (role) => {
     try {
       const token = await getToken();
-      const response = await fetch(`${import.meta.env.VITE_API_URL}/api/users/${user.id}/role`, {
+      const response = await fetch(`/api/users/${user.id}/role`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
