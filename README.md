@@ -1,6 +1,6 @@
 # 🏠 HouseFusion.io
 
-![HouseFusion.io Banner](https://i.imgur.com/your-banner-image.png)
+![HouseFusion.io Banner](https://res.cloudinary.com/dsks6akuy/image/upload/v1745335734/Screenshot_2025-04-22_205653_tc7xda.png)
 
 **HouseFusion.io** is a modern real estate platform that seamlessly connects buyers, sellers, and property managers in a digital-first ecosystem. Our platform streamlines every aspect of the real estate journey—from property discovery to transaction completion—making it smoother, smarter, and more reliable.
 
