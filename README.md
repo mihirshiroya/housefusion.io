@@ -4,6 +4,12 @@
 
 **HouseFusion.io** is a modern real estate platform that seamlessly connects buyers, sellers, and property managers in a digital-first ecosystem. Our platform streamlines every aspect of the real estate journey—from property discovery to transaction completion—making it smoother, smarter, and more reliable.
 
+## Live Demo 🌐
+
+Check out the live platform here: [HouseFusion.io](https://housefusion.onrender.com)
+
+---
+
 ## ✨ Key Features
 
 ### 👥 User Management
@@ -66,12 +72,7 @@
 - **Langchain + Google Generative AI** - AI-powered search capabilities
 - **PDF-lib + PDFKit** - Dynamic document generation
 
-## 🚀 Getting Started
 
-### ✅ Prerequisites
-- Node.js ≥ 14.x
-- PostgreSQL
-- API Access: Clerk, Stripe, Cloudinary (Twilio optional for SMS)
 
 
 ## 👥 Contributing
